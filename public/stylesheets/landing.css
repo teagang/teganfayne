@@ -1,0 +1,37 @@
+body {
+    background: url(https://res.cloudinary.com/teegs/image/upload/v1626428331/teganfayne/tankwasunriseR1-08509-0031_uvbc1q.jpg) no-repeat center fixed;
+    background-size: cover;    
+}
+
+h2{
+    font-size: 3vw;
+    color: white;
+    margin: 10%;
+    text-align: center;
+}
+
+.displaybox{
+    background-color: rgba(255, 255, 255, 0.3);
+   width: 100%;
+    height:100%;
+    border-radius: 40px;
+    text-align: center;
+    padding:20%;
+    margin: 10%;
+    box-shadow: inset -7px 7px 14px #5e5f62,
+    inset 7px -7px 14px #ffffff;
+}
+.displaybox:hover{
+    background-color: rgba(255, 255, 255, 0.0);
+    
+}
+
+a{
+    color:white;
+    text-decoration: none;
+    font-size: 2vw;
+}
+a:hover{
+    color: white;
+    
+}

@@ -2,21 +2,64 @@
 <html lang="en">
 <head>
   <%- include('../partials/head'); %>
+  <link rel="stylesheet" href="/stylesheets/landing.css">
 </head>
-<body class="container">
+<body class="d-flex">
+  <div class="cover-container d-flex  w-100 h-100 p-3 mx-auto flex-column">
 
 <header>
-  <%- include('../partials/nav'); %>
+<!-- <%- include('../partials/nav'); %> -->  
 </header>
 
-<h1>landing</h1>
 
-<h2> - T E G A N <br> F A Y N E - </h2>
+<div class="container h-100">
+  <div class="row h-100">
+    <div class="col ">
+      <div onclick="location.href='/about';" style="cursor: pointer;" class="displaybox">
+        <a href="/about">about</a>
+      
+       </div>
+    </div>
+    <div class="col">
+      
+    </div>
+    <div class="col ">
+      <div onclick="location.href='/skills';"style="cursor: pointer;"class="displaybox">
+        <a  href="/skills">skills</a>
+       </div>
+    </div>
+</div>
+<div class="row">
+  <div class="col">
+    
+  </div>
+  <div class="col">
+    <h2> - T E G A N <br> F A Y N E - </h2>
+  </div>
+  <div class="col">
+    
+  </div>
+</div>
+<div class="row">
+  <div class="col">
+    <div onclick="location.href='/gallery';" style="cursor: pointer;"class="displaybox">
+      <a  href="/gallery">gallery</a>
+     </div>
+  </div>
+  <div class="col">
+    
+  </div>
+  <div class="col">
+    <div onclick="location.href='/contact';" style="cursor: pointer;"class="displaybox">
+      <a href="/contact">contact</a>
+     </div>
+  </div>
+</div>
+</div>
 
-<footer>
-  <%- include('../partials/footer'); %>
-</footer>
 
+
+</div>
 </body>
 </html>
 

@@ -1,9 +1,12 @@
 body{
-    background-image: url(https://res.cloudinary.com/teegs/image/upload/v1626428331/teganfayne/tankwasunriseR1-08509-0031_uvbc1q.jpg);
+    background-color: rgb(242, 218, 245);
     background-size: cover;
     background-position: center;
 }
 
+
+
 h1 {
     color: #ffffff;
 }
+
