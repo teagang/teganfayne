@@ -3,3 +3,33 @@ body {
     background-size: cover;    
     
 }
+
+
+
+/* div.carousel-item{
+    
+    box-shadow: inset -7px 7px 14px #5e5f62,
+    inset 7px -7px 14px #ffffff;
+} */
+
+.carousel .carousel-item {
+    height: 600px;
+    
+  }
+
+  .carousel-item img {
+    position: absolute;
+    object-fit:contain;
+    top: 0;
+    left: 0;
+    /* max-height: 600px;
+    max-width: 600px; */
+    border-radius: 40px;
+    padding: 10%;
+    background-color: rgb(255, 255, 255, 0.3);
+    
+}
+
+img.d-block{
+    height: 600px;
+}
