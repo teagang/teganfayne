@@ -2,18 +2,44 @@
 <html lang="en">
 <head>
   <%- include('../partials/head'); %>
+  <link rel="stylesheet" href="/stylesheets/gallery.css">
 </head>
-<body class="container">
+<body>
 
 <header>
   <%- include('../partials/nav'); %>
 </header>
 
+<div class="container-fluid">
+  <h1>Gallery</h1>
 
-<h1>gallery</h1>
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://res.cloudinary.com/teegs/image/upload/v1626719914/teganfayne/khalni-gemsm_phmfhw.jpg" class="d-block w-50" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://res.cloudinary.com/teegs/image/upload/v1626719912/teganfayne/boros-signetsm_vpw8mi.jpg" class="d-block w-50" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://res.cloudinary.com/teegs/image/upload/v1626719912/teganfayne/taigam_-sidis_s-handsm_jcwfnd.jpg" class="d-block w-50" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+</div>
 
 
 
-  
+
+<%- include('../partials/scripts'); %> 
   </body>
   </html>
