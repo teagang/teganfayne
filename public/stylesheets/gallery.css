@@ -6,23 +6,59 @@ body {
 
 
 .carousel-item {
-    background-color: rgb(255, 255, 255, 0.3);
+    
     position: relative;
     width: 100%;
     padding-top: 100%; /* 1:1 Aspect Ratio */
-    border-radius: 40px;
     
+        
     /* box-shadow: inset -7px 7px 14px #5e5f62,
     inset 7px -7px 14px #ffffff; */
+ }
+
+ .carousel-inner{
+padding: 10%;
+
+background-color: rgb(255, 255, 255, 0.3);
+border-radius: 40px;
+/* display: flex; */
  }
  
  .carousel-item img {
     position:  absolute;
     top: 0;
     left: 0;
-    bottom: 0;
+    bottom: 0%;
     right: 0;
     object-fit:contain;
-    padding: 10%;
+    /* padding: 10%; */
+    /* display: block; */
+
+ }
+
+ .details{
+     position:  absolute;
+     top: 80%;
+    left: 0;
+    bottom: 0%;
+    right: 0; 
+    /* object-fit:scale-down; */
+    text-align: center;
+   
+     
+     
+ }
+
+ p{
+    color: white;
+    line-height: 120%;
     
+   
+ }
+ h5{
+   top: 0%;  
+ }
+
+ .cool{
+     background-color: rgba(0, 0, 0, 0.3);
  }
