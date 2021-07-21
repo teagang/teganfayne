@@ -5,31 +5,24 @@ body {
 }
 
 
-
-/* div.carousel-item{
+.carousel-item {
+    background-color: rgb(255, 255, 255, 0.3);
+    position: relative;
+    width: 100%;
+    padding-top: 100%; /* 1:1 Aspect Ratio */
+    border-radius: 40px;
     
-    box-shadow: inset -7px 7px 14px #5e5f62,
-    inset 7px -7px 14px #ffffff;
-} */
-
-.carousel .carousel-item {
-    height: 600px;
-    
-  }
-
-  .carousel-item img {
-    position: absolute;
-    object-fit:contain;
+    /* box-shadow: inset -7px 7px 14px #5e5f62,
+    inset 7px -7px 14px #ffffff; */
+ }
+ 
+ .carousel-item img {
+    position:  absolute;
     top: 0;
     left: 0;
-    /* max-height: 600px;
-    max-width: 600px; */
-    border-radius: 40px;
+    bottom: 0;
+    right: 0;
+    object-fit:contain;
     padding: 10%;
-    background-color: rgb(255, 255, 255, 0.3);
     
-}
-
-img.d-block{
-    height: 600px;
-}
+ }
