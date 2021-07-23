@@ -5,21 +5,29 @@
   <link rel="stylesheet" href="/stylesheets/contact.css">
 </head>
 <body>
-
-<header>
+ <header>
   <%- include('../partials/nav'); %>
 </header>
 
 
+  <div class="container-fluid">
+   
 <h1>Contact</h1>
+
 <form>
-
-  <input type="email" placeholder="Your email">
+<div class="row">
+<div class="col-md-6"> 
+<input type="email" placeholder="Your email">
   <input type="text" placeholder="Your name">
-  <input type="text" placeholder="Message">
+  </div>
+  <div class="col-md-6">
+ <input class="message" type="text" placeholder="Message">
   <button type="submit">Send</button>
-
+  </div>
+</div>
 </form>
+
+  </div>
 
 
 <%- include('../partials/scripts'); %> 
