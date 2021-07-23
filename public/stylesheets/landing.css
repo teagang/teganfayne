@@ -1,16 +1,12 @@
 body {
     background: url(https://res.cloudinary.com/teegs/image/upload/v1626451409/teganfayne/paper1DSC_0109_ixdlny.jpg) no-repeat center fixed;
-    background-size: cover;    
-    
+    background-size: cover;     
 }
 
 h2{
-    font-size: 3vw;
     color: white;
     margin: 2%;
     text-align: center;
-    
-  
     /* text-shadow:    7px 7px 8px #545457; */
 } 
 
@@ -27,10 +23,10 @@ h2{
    
     box-shadow: inset -7px 7px 14px #5e5f62,
     inset 7px -7px 14px #ffffff;
-
+    margin: 10%;
     position: relative;
-    width: 100%;
-    padding-top: 100%; /* 1:1 Aspect Ratio */
+    width: 80%;
+    padding-top: 80%; /* 1:1 Aspect Ratio */
     
 }
 
@@ -44,14 +40,13 @@ h2{
 
 a{
     color:white;
-    
     text-decoration: none;
-    font-size: 2vw;
     position:  absolute;
     top: 50%;
     left: 0;
     bottom: 0%;
     right: 0;
+    font-size: 250%;
 }
 a:hover{
     color: white;

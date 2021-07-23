@@ -30,6 +30,10 @@ app.get('/contact', (req, res) => {
     res.render('pages/contact');
 });
 
+app.get('/secondgallery', (req, res) => {
+    res.render('pages/secondgallery');
+});
+
 
 const port = 3000;
 app.listen(port, () => {

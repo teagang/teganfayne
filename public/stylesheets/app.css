@@ -7,12 +7,10 @@ body{
 }
 
 
- p{
-     /* font-size: 110%; */
+ p{ 
      text-align:center;
  }
  ul{
-    font-size: 110%;
     text-align:center;
  }
 
@@ -25,11 +23,13 @@ h1 {
 
 h2 {
     text-align: center;
+    
 }
 h3{
     color: #ffffff;
     text-align: center;
     margin: 2%;
+    
 }
 
 h5{

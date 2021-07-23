@@ -1,7 +1,6 @@
 body {
-    background: url(https://res.cloudinary.com/teegs/image/upload/v1626718339/teganfayne/paperDSC_0102_nxc7qq.jpg) no-repeat center fixed;
-    background-size: cover;    
-    
+    background: url(https://res.cloudinary.com/teegs/image/upload/v1626451409/teganfayne/paper1DSC_0109_ixdlny.jpg) no-repeat center fixed;
+    background-size: cover;     
 }
 
 
@@ -19,9 +18,9 @@ body {
  .carousel-inner{
 padding: 10%;
 
-background-color: rgb(255, 255, 255, 0.3);
-border-radius: 40px;
-/* display: flex; */
+/* background-color: rgb(255, 255, 255, 0.3); */
+/* border-radius: 40px; */
+
  }
  
  .carousel-item img {
@@ -32,7 +31,7 @@ border-radius: 40px;
     right: 0;
     object-fit:contain;
     /* padding: 10%; */
-    /* display: block; */
+    
 
  }
 
@@ -42,7 +41,7 @@ border-radius: 40px;
     left: 0;
     bottom: 0%;
     right: 0; 
-    /* object-fit:scale-down; */
+    
     text-align: center;
    
      
