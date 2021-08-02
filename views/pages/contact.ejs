@@ -3,6 +3,29 @@
 <head>
   <%- include('../partials/head'); %>
   <link rel="stylesheet" href="/stylesheets/contact.css">
+  <%- include('../partials/scripts'); %> 
+  <script type="text/javascript">
+    (function() {
+        // https://dashboard.emailjs.com/admin/integration
+        emailjs.init('user_DFfqDZxsRy7k4FWjMkBa8');
+    })();
+</script>
+<script type="text/javascript">
+    window.onload = function() {
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            // generate a five digit number for the contact_number variable
+            this.contact_number.value = Math.random() * 100000 | 0;
+            // these IDs from the previous steps
+            emailjs.sendForm('service_c2ujbgk', 'contact_form', this)
+                .then(function() {
+                    console.log('SUCCESS!');
+                }, function(error) {
+                    console.log('FAILED...', error);
+                });
+        });
+    }
+</script>
 </head>
 <body>
  <header>
@@ -14,14 +37,15 @@
    
 <h1>Contact</h1>
 
-<form>
+<form id="contact-form">
+  <input type="hidden" name="contact_number">
 <div class="row">
 <div class="col-md-6"> 
-<input type="email" placeholder="Your email">
-  <input type="text" placeholder="Your name">
+<input type="email" placeholder="Your email" required minlength="6" maxlength="50" name="user_email">
+  <input type="text" placeholder="Your name" required minlength="1" maxlength="50" name="user_name">
   </div>
   <div class="col-md-6">
- <input class="message" type="text" placeholder="Message">
+ <input class="message" type="text" placeholder="Message" minlength="0" maxlength="500" name="message">
   <button type="submit">Send</button>
   </div>
 </div>
@@ -30,7 +54,8 @@
   </div>
 
 
-<%- include('../partials/scripts'); %> 
+
   </body>
   </html>
 
+  
