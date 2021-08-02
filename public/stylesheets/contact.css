@@ -1,11 +1,13 @@
 body {
-    background: url(https://res.cloudinary.com/teegs/image/upload/v1626718949/teganfayne/paperDSC_0101_btydsb.jpg) no-repeat center fixed;
+    background: url(https://res.cloudinary.com/teegs/image/upload/v1627908092/teganfayne/plant20042t_ni5otn.jpg) no-repeat center fixed;
     background-size: cover;    
     
 }
 
+
+
 input{
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.3);
     border-radius: 20px;
     text-align: center;
     color: white;
@@ -21,7 +23,7 @@ input:focus{
     border: none;
 }
 input:hover{
-    background-color: rgba(255, 255, 255, 0.0);
+    background-color: rgba(255, 255, 255, 0.5);
     text-shadow:    7px 7px 8px #545457;
 }
 .message{
@@ -31,12 +33,15 @@ button{
     
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 20px;
-    border: none;
-    width: 50%;
-    padding: 5%; 
+    text-align: center;
+    color: white;
     box-shadow: inset -7px 7px 14px #5e5f62,
     inset 7px -7px 14px #ffffff;
-    color: white;
+    margin: 10%;
+    position: relative;
+    width: 50%;
+    padding: 3%; 
+    border: none;
 }
 button:hover{
     background-color: rgba(255, 255, 255, 0.5);
