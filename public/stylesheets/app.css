@@ -36,3 +36,12 @@ h5{
     color: white;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    font-weight: bold;
+    color: white;
+    transition: 0.2s;
+}

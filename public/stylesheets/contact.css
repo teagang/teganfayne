@@ -25,6 +25,7 @@ input:focus{
 input:hover{
     background-color: rgba(255, 255, 255, 0.5);
     text-shadow:    7px 7px 8px #545457;
+    transition: 0.2s;
 }
 .message{
     padding:10%;
@@ -48,3 +49,7 @@ button:hover{
     text-shadow:    7px 7px 8px #545457;
 }
 
+p.links{
+    display: flex;
+    justify-content: space-around;
+}
