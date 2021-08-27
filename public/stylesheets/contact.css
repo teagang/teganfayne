@@ -1,6 +1,6 @@
 
 body {
-    background: url(https://res.cloudinary.com/teegs/image/upload/v1627908092/teganfayne/plant20042t_ni5otn.jpg) no-repeat center fixed;
+    background: url(https://res.cloudinary.com/teegs/image/upload/v1626451409/teganfayne/paper1DSC_0109_ixdlny.jpg) no-repeat center fixed;
     background-size: cover;    
     
 }
@@ -9,6 +9,7 @@ body {
    
 }
 input{
+    font-family: 'Advent Pro', sans-serif;
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 20px;
     text-align: center;
@@ -25,13 +26,15 @@ input:focus{
 }
 input:hover{
     background-color: rgba(255, 255, 255, 0.5);
-    text-shadow:    7px 7px 8px #545457;
+    /* text-shadow:    7px 7px 8px #545457; */
     transition: 0.2s;
 }
 .message{
     padding:10%;
+    
 }
 button{
+    font-family: 'Advent Pro', sans-serif;
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 20px;
     text-align: center;
@@ -46,7 +49,7 @@ button{
 }
 button:hover{
     background-color: rgba(255, 255, 255, 0.5);
-    text-shadow:    7px 7px 8px #545457;
+    
 }
 
 .links{
@@ -61,4 +64,10 @@ button:hover{
     bottom: 0%;
     width: 100%;
    
+}
+
+a:hover{
+    text-decoration: underline;
+    color: white;
+    transition: 0.2s;
 }

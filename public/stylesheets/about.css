@@ -1,23 +1,20 @@
 body {
-    background: url(https://res.cloudinary.com/teegs/image/upload/v1630085592/teganfayne/plantDSC_0051t_om5irr.jpg) no-repeat center fixed;
+    background: url(https://res.cloudinary.com/teegs/image/upload/v1626451409/teganfayne/paper1DSC_0109_ixdlny.jpg) no-repeat center fixed;
     background-size: cover;    
     
 }
 
 .displayabout{
-
-       
     background-color: rgba(255, 255, 255, 0.6);
- 
     height: 100%; 
-     
-      border-radius: 50px;
-      text-align: center;
-      padding:2%;
-      margin: 2%;
-      position: relative;
-      box-shadow: inset -7px 7px 14px #5e5f62,
-      inset 7px -7px 14px #ffffff;
+    border-radius: 50px;
+    text-align: center;
+    padding:2%;
+    margin: 2%;
+    position: relative;
+    box-shadow: inset -7px 7px 14px #5e5f62,
+    inset 7px -7px 14px #ffffff;
+    
 }
 
 ul {
