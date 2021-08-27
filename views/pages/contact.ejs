@@ -36,34 +36,37 @@
 
 
   <div class="container-fluid">
-   
-<h1>Contact</h1>
+ <div class="row-md-3">
+   <h1>Contact</h1>
+ </div>  
 
-<form id="contact-form">
-  <input type="hidden" name="contact_number">
-<div class="row">
-<div class="col-md-6"> 
+<form id="contact-form"></form>
+  <div class="row" id="formrow">
+     <div class="col-md-3 d-flex justify-content-center">   
 <input type="email" placeholder="Your email" required minlength="6" maxlength="50" name="user_email">
-  <input type="text" placeholder="Your name" required minlength="1" maxlength="50" name="user_name">
-  </div>
-  <div class="col-md-6">
- <input class="message" type="text" placeholder="Message" minlength="0" maxlength="500" name="message">
-  <button type="submit">Send</button>
-  </div>
 </div>
+<div class="col-md-3 d-flex justify-content-center">
+  <input type="text" placeholder="Your name" required minlength="1" maxlength="50" name="user_name"> 
+</div>
+<div class="col-md-3 d-flex justify-content-center">
+ <input class="message" type="text" placeholder="Message" minlength="0" maxlength="500" name="message">
+ </div> 
+ <div class="col-md-3 d-flex justify-content-center">
+     <button type="submit">Send</button> 
+     </div>
+  </div>
 </form>
 
-<div>
+<div class="row" id="rlinks">
   <p class="links">
     <a href="https://www.instagram.com/faynepaints/">painting commissions <i class="fab fa-instagram"></i></a>
-    
   <a href="https://www.instagram.com/faynepaintsmtg/">mtg alters <i class="fab fa-instagram"></i></a>
-  
-  <a href="https://society6.com/fayneart">Make a purchase here</a>
+  <a href="https://society6.com/fayneart">make a purchase here</a>
   </p>
-  
 </div>
-  </div>
+ </div>
+
+  
 
   <script src="https://kit.fontawesome.com/0e54c54cde.js" crossorigin="anonymous"></script>
 

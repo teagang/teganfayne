@@ -34,6 +34,10 @@ app.get('/secondgallery', (req, res) => {
     res.render('pages/secondgallery');
 });
 
+app.get('/testpage', (req, res) => {
+    res.render('pages/testpage');
+});
+
 
 const port = 3000;
 app.listen(port, () => {
