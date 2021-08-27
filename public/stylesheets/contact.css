@@ -30,6 +30,15 @@ input:hover{
     /* text-shadow:    7px 7px 8px #545457; */
     transition: 0.2s;
 }
+
+input:focus:invalid {
+    border: 2px solid rgb(250, 161, 161);
+  }
+  
+  input:focus:invalid:required {
+    background-image: linear-gradient(to right, rgb(250, 161, 161), white);
+  }
+
 .message{
     padding:10%;
     
