@@ -13,6 +13,7 @@
 <script type="text/javascript">
     window.onload = function() {
         document.getElementById('contact-form').addEventListener('submit', function(event) {
+          console.log('function requested');
             event.preventDefault();
             // generate a five digit number for the contact_number variable
             this.contact_number.value = Math.random() * 100000 | 0;
@@ -40,22 +41,23 @@
    <h1>Contact</h1>
  </div>  
 
-<form id="contact-form"></form>
-  <div class="row" id="formrow">
-     <div class="col-md-3 d-flex justify-content-center">   
+<form id="contact-form">
+  <input type="hidden" name="contact_number">
+  <!-- <div class="row" id="formrow">
+     <div class="col-md-3 d-flex justify-content-center">    -->
 <input type="email" placeholder="Your email" required minlength="6" maxlength="50" name="user_email">
-</div>
-<div class="col-md-3 d-flex justify-content-center">
+<!-- </div>
+<div class="col-md-3 d-flex justify-content-center"> -->
   <input type="text" placeholder="Your name" required minlength="1" maxlength="50" name="user_name"> 
-</div>
-<div class="col-md-3 d-flex justify-content-center">
+<!-- </div>
+<div class="col-md-3 d-flex justify-content-center"> -->
  <input class="message" type="text" placeholder="Message" minlength="0" maxlength="500" name="message">
- </div> 
- <div class="col-md-3 d-flex justify-content-center">
+ <!-- </div> 
+ <div class="col-md-3 d-flex justify-content-center"> -->
      <button type="submit">Send</button> 
-     </div>
-  </div>
+     <!-- </div> --> 
 </form>
+ </div>
 
 <div class="row" id="rlinks">
   <p class="links">
