@@ -38,6 +38,10 @@ app.get('/testpage', (req, res) => {
     res.render('pages/testpage');
 });
 
+app.get('/linksGallery', (req, res) => {
+    res.render('pages/linksGallery');
+});
+
 
 const port = 3000;
 app.listen(port, () => {

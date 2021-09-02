@@ -1,0 +1,67 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('../partials/head'); %>
+  <link rel="stylesheet" href="/stylesheets/linksGallery.css">
+</head>
+<body>
+  
+
+<header>
+<%- include('../partials/nav'); %>  
+</header>
+
+<div class="container-fluid">
+
+
+<div class="row"> 
+  <div class="col-md-12">
+    <h2>Areas of Interest</h2>
+  </div>
+</div>
+
+  <div class="row">
+    <div class="col-md-4 d-flex justify-content-center">
+      <div onclick="location.href='/fabrication';" style="cursor: pointer;" class="displaybox">
+          <a href="/about"><h2>Fabrication</h2></a>
+       </div>
+    </div>
+  <div class="col-md-4 d-flex justify-content-center">
+    <div onclick="location.href='/painting';" style="cursor: pointer;"class="displaybox">
+      <a  href="/gallery"><h2>Painting</h2></a>
+     </div>
+  </div>
+  <div class="col-md-4 d-flex justify-content-center">
+    <div onclick="location.href='/photography';" style="cursor: pointer;"class="displaybox">
+
+      <a href="/contact"><h2>Photography</h2></a>
+      </div>
+</div>
+</div>
+<div class="row">
+      <div class="col-md-4 d-flex justify-content-center">
+        <div onclick="location.href='/set dressing';" style="cursor: pointer;" class="displaybox">
+            <a href="/about"><h2>Set Dressing</h2></a>
+         </div>
+      </div>
+    <div class="col-md-4 d-flex justify-content-center">
+      <div onclick="location.href='/sketch';" style="cursor: pointer;"class="displaybox">
+        <a  href="/gallery"><h2>Sketching</h2></a>
+       </div>
+    </div>
+    <div class="col-md-4 d-flex justify-content-center">
+      <div onclick="location.href='/mtgalters';" style="cursor: pointer;"class="displaybox">
+        <a href="/contact"><h2>MTG: Altered Art</h2></a>
+     </div>
+  </div>
+</div>
+
+</div>
+<%- include('../partials/scripts'); %> 
+</body>
+</html>
+
+
+
