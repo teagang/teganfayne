@@ -15,20 +15,26 @@ h2{
     background-color: rgba(255, 255, 255);
     border-radius: 30px;
     text-align: center;
+    /* box-shadow:  10px 10px 23px #a8a9af,
+             -10px -10px 23px #f2f3fb; */
     /* box-shadow: inset -7px 7px 14px #5e5f62,
     inset 7px -7px 14px #ffffff; */
     margin: 5%;
     /* width: 80%;
     padding-top: 40%; */
-    width: 40vw;
+    width: 20vw;
     height:20vw;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
 }
 
 
 
 .displaybox:hover{
     
-    text-shadow:    7px 7px 8px #545457;
+    
      
 }
 
@@ -38,13 +44,23 @@ h2{
 } */
 
 img{
-   /* position: relative; */
-   max-width: 40vw;
+   max-width: 20vw;
    max-height: 20vw;
    padding:2%;
    filter: grayscale(80%);
    border-radius: 30px;
+   /* display: flex;
+   justify-content: center;
+   align-items: center; */
 }
 img:hover{
     filter: none;
+}
+
+.interest{
+  
+    position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
