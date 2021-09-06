@@ -56,3 +56,14 @@ img:hover{
 .row{
     margin-top: 2%;
 }
+
+@media (max-width: 991.98px) { 
+    .displaybox{
+        height: 80vw;
+        width:80vw;
+    }
+    img{
+        max-width: 80vw;
+        max-height: 80vw;
+    }
+}

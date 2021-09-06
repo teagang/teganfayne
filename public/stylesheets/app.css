@@ -42,7 +42,13 @@ h5{
 }
 
 a{
-    color: rgb(255, 255, 255);
+    color: rgba(3, 3, 3, 0.7);
     text-decoration: none;
     font-family: 'Advent Pro', sans-serif;
 }
+
+a:hover{
+    color: black;
+    transition: 0.2s;
+}
+
