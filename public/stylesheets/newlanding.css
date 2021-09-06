@@ -1,22 +1,41 @@
 body{
     /* background-image: linear-gradient(rgb(36, 48, 62), rgb(237, 211, 229), rgb(36, 48, 62) )  ; */
-    background-image: linear-gradient( rgb(255, 255, 255),rgb(30, 37, 47) )  ;
+    background-image: linear-gradient( rgb(30, 37, 47),rgb(255, 255, 255) )  ;
+    
 }
 .feature{
     
     display: flex;
    justify-content: center;
    align-items: center;
-   position: relative;
+  
    
 }
-.row{
-   
-}
+
 
 img{
-    max-height: 50vh; 
-    padding: 3%;
-    border-radius: 30%;
+    box-shadow: 16px 16px 30px 6px rgb(30, 37, 47);
+   
+    border-radius: 50%;
+   max-height: 70vh;
+
 }
 
+h2{
+  color: white;
+   
+    text-align: center;
+}
+
+a{
+    
+    color: black;
+}
+
+.container-fluid{
+    height: 100vh;
+}
+
+.row{
+    margin: 3%;
+}
