@@ -42,6 +42,10 @@ app.get('/linksGallery', (req, res) => {
     res.render('pages/linksGallery');
 });
 
+app.get('/newlanding', (req, res) => {
+    res.render('pages/newlanding');
+});
+
 
 const port = 3000;
 app.listen(port, () => {

@@ -1,0 +1,22 @@
+body{
+    /* background-image: linear-gradient(rgb(36, 48, 62), rgb(237, 211, 229), rgb(36, 48, 62) )  ; */
+    background-image: linear-gradient( rgb(255, 255, 255),rgb(30, 37, 47) )  ;
+}
+.feature{
+    
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   
+}
+.row{
+   
+}
+
+img{
+    max-height: 50vh; 
+    padding: 3%;
+    border-radius: 30%;
+}
+
