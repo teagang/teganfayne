@@ -4,12 +4,21 @@ body{
     
 }
 .feature{
-    
     display: flex;
    justify-content: center;
    align-items: center;
-  
+   height: 70vh; 
+   width: 70vh;
+   background-image: url(https://res.cloudinary.com/teegs/image/upload/v1630919781/teganfayne/trpyboattop_mjswok.jpg) ;
+   border-radius: 50%;
+   background-size:contain;
+   box-shadow: 16px 16px 30px 6px rgb(30, 37, 47);
+   transition: 0.7s;
    
+}
+.feature:hover{
+    transform: rotate(180deg);
+    background-image: url(https://res.cloudinary.com/teegs/image/upload/a_180/v1630919778/teganfayne/troyboatbottom_ykc0i2.jpg) ;
 }
 
 
@@ -39,3 +48,5 @@ a{
 .row{
     margin: 3%;
 }
+
+

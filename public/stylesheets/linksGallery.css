@@ -5,23 +5,14 @@ body {
 
 h2{
     color: white;
-    margin: 2%;
     text-align: center;
-    /* text-shadow:    7px 7px 8px #545457; */
 } 
 
 .displaybox{
-    /*background: linear-gradient(145deg, rgb(219, 220, 228, 0.3), rgb(185, 185, 192, 0.3));*/
     background-color: rgba(255, 255, 255);
     border-radius: 30px;
     text-align: center;
-    /* box-shadow:  10px 10px 23px #a8a9af,
-             -10px -10px 23px #f2f3fb; */
-    /* box-shadow: inset -7px 7px 14px #5e5f62,
-    inset 7px -7px 14px #ffffff; */
     margin: 5%;
-    /* width: 80%;
-    padding-top: 40%; */
     width: 20vw;
     height:20vw;
     display: flex;
@@ -49,9 +40,6 @@ img{
    padding:2%;
    filter: grayscale(80%);
    border-radius: 30px;
-   /* display: flex;
-   justify-content: center;
-   align-items: center; */
 }
 img:hover{
     filter: none;
@@ -63,4 +51,8 @@ img:hover{
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.row{
+    margin-top: 2%;
 }
