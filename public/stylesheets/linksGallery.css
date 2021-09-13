@@ -1,5 +1,6 @@
 body {
     background: url(https://res.cloudinary.com/teegs/image/upload/v1626451409/teganfayne/paper1DSC_0109_ixdlny.jpg) no-repeat center fixed;
+    /* background-image: linear-gradient( rgb(30, 37, 47, 0.5),rgb(255, 255, 255, 0.5) )  ; */
     background-size: cover;     
 }
 
@@ -19,6 +20,7 @@ h2{
    justify-content: center;
    align-items: center;
    position: relative;
+   box-shadow: 16px 16px 30px 6px rgb(30, 37, 47);
 }
 
 

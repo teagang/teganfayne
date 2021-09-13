@@ -9,7 +9,7 @@ body{
    align-items: center;
    height: 70vh; 
    width: 70vh;
-   background-image: url(https://res.cloudinary.com/teegs/image/upload/v1630919781/teganfayne/trpyboattop_mjswok.jpg) ;
+   background-image: url(https://res.cloudinary.com/teegs/image/upload/v1631518608/teganfayne/top-boat-1web_xb8n9x.jpg) ;
    border-radius: 50%;
    background-size:contain;
    box-shadow: 16px 16px 30px 6px rgb(30, 37, 47);
@@ -18,17 +18,16 @@ body{
 }
 .feature:hover{
     transform: rotate(180deg);
-    background-image: url(https://res.cloudinary.com/teegs/image/upload/a_180/v1630919778/teganfayne/troyboatbottom_ykc0i2.jpg) ;
+    background-image: url(https://res.cloudinary.com/teegs/image/upload/v1631518608/teganfayne/bottom-boat-1web_y2baf5.jpg) ;
 }
 
 
-img{
+/* img{
     box-shadow: 16px 16px 30px 6px rgb(30, 37, 47);
-   
     border-radius: 50%;
    max-height: 70vh;
 
-}
+} */
 
 h2{
   color: white;
